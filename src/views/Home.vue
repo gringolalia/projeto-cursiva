@@ -7,7 +7,7 @@ div
 	//- 	h3._text-left(style="width: 360px") Cθ οδιο μθcιθσ ηισ, εθμ αλιι γραεcε δελιcατισσιμι ιδ, θτ παθλο qθαλισqθε εοσ. Ειρμοδ οπτιον qθαεστιο ιν μει.
 	//- 	i-button(variant='primary') Act on the Fact
 
-	i-header#header._text-center._text-white(:cover='true')
+	i-header#header._text-center._text-white(:cover='true' style="filter: grayscale(100%)")
 		h1 Babel Babel Babble On
 		h2 Lorem ipsum dolor sit amet
 		i-button(variant='primary') Impress Me
