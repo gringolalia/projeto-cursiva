@@ -2,8 +2,8 @@
 
 #app
 
-	i-navbar.with.dignity(variant='light')
-		i-navbar-brand(:to='{ name: \'index\' }' style="font-size: 20px;") 
+	i-navbar._sticky-top.with.dignity(variant='light')
+		i-navbar-brand(to='/' style="font-size: 20px;") 
 			i.fas.fa-chess-knight.fa-2x
 			| &nbsp;&nbsp;Engenho Novo LLC
 		i-navbar-items
@@ -17,6 +17,7 @@
 </template>
 
 <style lang="less">
+
 #app {
 	font-family: 'Avenir', Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
